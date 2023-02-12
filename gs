@@ -25,9 +25,9 @@ local library = {
     hovers = {},
     Relations = {},
     folders = {
-        main = "Atlanta",
-        assets = "Atlanta/Images",
-        configs = "Atlanta/Configs"
+        main = "atra$ium",
+        assets = "atra$ium/Images",
+        configs = "atra$ium/Configs"
     },
     shared = {
         initialized = false,
@@ -1893,7 +1893,7 @@ do
             }
             --
             local keybindslist_title = utility:Create("TextLabel", {Vector2.new(keybindslist_outline.Size.X/2,4), keybindslist_outline}, {
-                Text = "[ Keybinds ]",
+                Text = "[ - Keybinds - ]",
                 Size = theme.textsize,
                 Font = theme.font,
                 Color = theme.textcolor,
